@@ -1,6 +1,6 @@
 # Student Performance Analysis and Visualization using Julia
 
-This project involves analyzing and visualizing factors that affect student performance using the **StudentPerformanceFactors** dataset from Kaggle. The analysis is conducted in **Julia**, utilizing key packages such as `CSV`, `DataFrames`, and `Plots`. The goal is to extract insights from the data and present them through meaningful visualizations.
+This project involves analyzing and visualizing factors that affect student performance using the **StudentPerformanceFactors** dataset from Kaggle. The analysis is conducted in **Julia**, utilizing key packages such as `CSV`, `DataFrames`, `StatsBase` and `Plots`. The goal is to extract insights from the data and present them through meaningful visualizations.
 
 ## Project Objectives
 
@@ -14,6 +14,7 @@ The dataset used in this project is the **StudentPerformanceFactors** dataset fr
 - Study time
 - Parental education
 - Attendance
+- Sleep hours
 - Extracurricular activities
 - Grades
 
@@ -25,6 +26,7 @@ To run this project, you will need:
 - The following Julia packages:
   - `CSV`
   - `DataFrames`
+  - `StatsBase`
   - `Plots`
 
 ## Installation
@@ -34,6 +36,8 @@ To install the required packages, run the following commands in the Julia REPL:
 using Pkg
 Pkg.add("CSV")
 Pkg.add("DataFrames")
+Pkg.add("StatsBase")
 Pkg.add("Plots")
 
 ## Results
+1. The data indicates that sleep and exam grades are highly correlated. Students who averaged 7 hours of sleep performed the best, suggesting that both more and less sleep can affect grades. Therefore, students should prioritize getting around 7 hours of sleep each day.
