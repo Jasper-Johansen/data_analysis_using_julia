@@ -42,4 +42,4 @@ Pkg.add("Plots")
 
 ## Results
 
-1. The data indicates that sleep and exam grades are weakly correlated. Students with sleep less than and greater than 7 hours of sleep showed small negative correlations, suggesting a narrow advantage for students with an average of 7 hours of sleep.
+1. The correlation data indicates that sleep and exam grades are weakly correlated. Students with sleep less than and greater than 7 hours of sleep showed small negative correlations, suggesting a narrow advantage for students with an average of 7 hours of sleep.
