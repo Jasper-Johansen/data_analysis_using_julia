@@ -38,7 +38,8 @@ Pkg.add("CSV")
 Pkg.add("DataFrames")
 Pkg.add("StatsBase")
 Pkg.add("Plots")
+```
 
 ## Results
 
-1. The data indicates that sleep and exam grades are highly correlated. Students who averaged 7 hours of sleep performed the best, suggesting that both more and less sleep can affect grades. Therefore, students should prioritize getting around 7 hours of sleep each day
+1. The data indicates that sleep and exam grades are weakly correlated. Students with sleep less than and greater than 7 hours of sleep showed small negative correlations, suggesting a narrow advantage for students with an average of 7 hours of sleep.
